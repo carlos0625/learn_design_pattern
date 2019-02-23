@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestSimpleFactory",
+            "request": "launch",
+            "mainClass": "builder.simplefactory.TestSimpleFactory",
+            "projectName": "lean_design_parttern_4eae8ae5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "structure.decorator.Client"
+        }
+    ]
+}
