@@ -8,7 +8,7 @@ package builder.singleton;
  * @version : 1.0
  */
 public class EagerSingleton {
-    private static final EagerSingleton instance = new EagerSingleton();
+    private static final EagerSingleton INSTANCE = new EagerSingleton();
 
     private EagerSingleton() { }
 
@@ -17,6 +17,6 @@ public class EagerSingleton {
      * @return instance
      */
     public static EagerSingleton getInstance() {
-        return instance;
+        return INSTANCE;
     }
 }

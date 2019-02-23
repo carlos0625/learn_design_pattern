@@ -21,8 +21,9 @@ public class LoadBalancer {
     }
 
     public static LoadBalancer getInstance() {
-        if (instance == null)
-            instance =  new LoadBalancer();
+        if (instance == null) {
+            instance = new LoadBalancer();
+        }
         return instance;
     }
 
