@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.command.base;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -20,7 +20,7 @@ public class XmlUtil {
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(new File("src/behavioral/command/config.xml"));
+            Document doc = builder.parse(new File("src/behavioral/command/base/config.xml"));
 
             NodeList nodeList = doc.getElementsByTagName("className");
             Node node = nodeList.item(0).getFirstChild();

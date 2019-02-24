@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.command.base;
 
 /**
  * @author Carlos Leo
