@@ -10,8 +10,7 @@ package behavioral.command.undo;
 public class Client {
     public static void main(String[] args) {
         CalculatorForm form = new CalculatorForm();
-        AbstractCommand command;
-        command = new AddCommand();
+        AbstractCommand command = new AddCommand();
         form.setCommand(command);
 
         form.compute(10);
