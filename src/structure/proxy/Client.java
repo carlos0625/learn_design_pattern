@@ -10,6 +10,7 @@ package structure.proxy;
 public class Client {
     public static void main(String[] args) {
         ProxySearcher proxy = (ProxySearcher) XmlUtil.getBean();
+        assert proxy != null;
         proxy.doSearch("杨过", "123456");
     }
 }

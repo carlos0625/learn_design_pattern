@@ -17,7 +17,7 @@ public class IoDHSingleton {
      * 静态内部类
      */
     private static class HolderClass {
-        private final static IoDHSingleton instance = new IoDHSingleton();
+        private final static IoDHSingleton INSTANCE = new IoDHSingleton();
     }
 
     /**
@@ -25,7 +25,7 @@ public class IoDHSingleton {
      * @return instance
      */
     public static IoDHSingleton getInstance() {
-        return HolderClass.instance;
+        return HolderClass.INSTANCE;
     }
 
     /**
